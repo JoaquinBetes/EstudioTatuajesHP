@@ -1,2 +1,2 @@
 # EstudioTatuajesHP
-Proyecto para la cátedra de Habilitación profesional UTN Frro
+Proyecto para la cátedra de Habilitación Profesional UTN Frro
