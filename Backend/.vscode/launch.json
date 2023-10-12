@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+       {
+        "name": "Launch Program",
+        "program": "${workspaceFolder}\\dist\\index.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+       },
+       {
+        "name": "TS-Node",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/ts-node",
+        "runtimeArgs": [
+            "--transpile-only",
+            // if you use esm
+            "--esm"
+        ],
+        "program": "${workspaceFolder}\\src\\index.ts",
+        "cwd": "${workspaceRoot}",
+        "internalConsoleOptions": "openOnSessionStart",
+        "skipFiles": ["<node_internals>/**", "node_modules/**"]
+    }
+    ]
+}
