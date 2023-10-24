@@ -1,5 +1,5 @@
 import { getRepository, createQueryBuilder, Repository } from 'typeorm'
-import { Chofer } from '../entity/Chofer'
+import { Chofer } from '../entity/Sucursal'
 
 export class ChoferRepository{
     // private repositorys: Repository<Chofer>;

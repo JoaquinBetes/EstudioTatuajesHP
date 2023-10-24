@@ -1,4 +1,4 @@
-import { Calendario } from '../entity/Calendario';
+import { Calendario } from '../entity/Politica';
 import { CalendarioRepository } from '../repositories/Calendario.repository';
 
 export class CalendarioService{

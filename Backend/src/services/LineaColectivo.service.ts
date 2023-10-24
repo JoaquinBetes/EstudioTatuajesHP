@@ -1,4 +1,4 @@
-import { LineaColectivo } from '../entity/LineaColectivo';
+import { LineaColectivo } from '../entity/HorarioAtension';
 import { LineaColectivoRepository } from '../repositories/LineaColectivo.repository';
 
 export class LineaColectivoService{

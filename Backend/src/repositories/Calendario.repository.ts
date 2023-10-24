@@ -1,5 +1,5 @@
 import { Repository } from 'typeorm'
-import { Calendario } from '../entity/Calendario'
+import { Calendario } from '../entity/Politica'
 
 export class CalendarioRepository{
     // private repositorys: Repository<Calendario>;

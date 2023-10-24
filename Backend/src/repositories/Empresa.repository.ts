@@ -1,5 +1,5 @@
 import { getRepository, Repository } from 'typeorm'
-import { Empresa } from '../entity/Empresa'
+import { Empresa } from '../entity/Cliente'
 
 export class EmpresaRepository{    
 

@@ -1,6 +1,6 @@
 import {Request, Response} from 'express'
 import { getRepository, createQueryBuilder, Repository } from 'typeorm'
-import { Recorrido } from '../entity/Recorrido'
+import { Recorrido } from '../entity/Categoria'
 
 export class RecorridoRepository{
     // private repositorys = new Repository<Recorrido>();

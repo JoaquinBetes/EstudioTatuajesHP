@@ -1,6 +1,6 @@
 import {Request, Response} from 'express'
 import { getRepository, Repository } from 'typeorm'
-import { Parada } from '../entity/Parada'
+import { Parada } from '../entity/Turno'
 
 export class ParadaColectivoRepository{
     // private repositorys = new Repository<Parada>();

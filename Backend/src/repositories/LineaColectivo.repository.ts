@@ -1,6 +1,6 @@
 import {Request, Response} from 'express'
 import { getRepository, createQueryBuilder, Repository } from 'typeorm'
-import { LineaColectivo } from '../entity/LineaColectivo'
+import { LineaColectivo } from '../entity/HorarioAtension'
 
 export class LineaColectivoRepository{
     //private repositorys = new Repository<LineaColectivo>();

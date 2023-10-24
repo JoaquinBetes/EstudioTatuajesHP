@@ -1,4 +1,4 @@
-import { Recorrido } from '../entity/Recorrido';
+import { Recorrido } from '../entity/Categoria';
 import { RecorridoRepository } from '../repositories/Recorrido.repository';
 
 export class RecorridoService{

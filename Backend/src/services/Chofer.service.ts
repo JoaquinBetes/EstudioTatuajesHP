@@ -1,4 +1,4 @@
-import { Chofer } from '../entity/Chofer';
+import { Chofer } from '../entity/Sucursal';
 import { ChoferRepository } from '../repositories/Chofer.repository';
 
 export class ChoferService{

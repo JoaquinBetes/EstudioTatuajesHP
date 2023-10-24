@@ -1,4 +1,4 @@
-import { Parada } from '../entity/Parada';
+import { Parada } from '../entity/Turno';
 import { ParadaColectivoRepository } from '../repositories/ParadaColectivo.repository';
 
 export class ParadaColectivoService{
